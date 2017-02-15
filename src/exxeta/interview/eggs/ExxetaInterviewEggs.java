@@ -30,7 +30,10 @@ public class ExxetaInterviewEggs implements ISkycrapper {
          //    int res = t.fall_new();
          //    System.out.println("Poschodie: "+ res);
 
-         test_1();
+         // uz je to lepsie. Ale daj si napr. 1000 poschodovy panelak s maximom 753, a vypisat testovane poschodia
+         // malo by testovat postupne poschodia 500,750,875,751,752,753,754 -> a vysledok 753
+         // u Teba to ma 966 pokusov :) 500,525,501,526,502,527,503,528 ... 754,501,502,502,503,503 ...
+        test_1();
 
     }
 
